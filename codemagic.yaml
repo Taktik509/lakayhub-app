@@ -5,6 +5,12 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       java: 17
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
     scripts:
       - name: Set up Gradle
         script: |
