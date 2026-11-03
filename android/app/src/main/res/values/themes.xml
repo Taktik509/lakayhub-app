@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LakayHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1B5BD7</item>
+        <item name="colorPrimaryDark">#0A2472</item>
+        <item name="colorAccent">#F97316</item>
+        <item name="android:statusBarColor">#0A2472</item>
+    </style>
+    <style name="Theme.LakayHub.Splash" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">#0A2472</item>
+        <item name="android:statusBarColor">#0A2472</item>
+    </style>
+</resources>
